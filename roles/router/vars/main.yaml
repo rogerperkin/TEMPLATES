@@ -1,0 +1,14 @@
+---
+routers: 
+  - hostname: R1
+    loopback: 1.1.1.1 255.255.255.255
+    enable_secret: roger 
+
+  - hostname: R2
+    loopback: 2.2.2.2 255.255.255.255
+    enable_secret: roger 
+
+  - hostname: R3
+    loopback: 3.3.3.3 255.255.255.255
+    enable_secret: roger 
+
